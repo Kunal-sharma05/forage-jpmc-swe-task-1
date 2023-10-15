@@ -264,7 +264,7 @@ class App(object):
             self._sim_start, _, _=next(self._data_1)
             self.read_10_first_lines()
         except StopIteration:
-            print(" data1 iteration is exhausted ")
+            print(" data1 iteration is exhausted  ")
 
     @property
     def _current_book_1(self):
